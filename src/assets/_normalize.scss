@@ -1,0 +1,63 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+    font-family: "TT Norms", "Gotham", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #FFFAF5;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.yellowDefault {
+    color: #FAED00;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+    @media (min-width: 640px) {
+        .container {
+            max-width: 640px;
+        }
+    }
+    @media (min-width: 768px) {
+        .container {
+            max-width: 768px;
+        }
+    }
+    @media (min-width: 1024px) {
+        .container {
+            max-width: 1024px;
+        }
+    }
+    @media (min-width: 1280px) {
+        .container {
+            max-width: 1280px;
+        }
+    }
+    @media (min-width: 1536px) {
+        .container {
+            max-width: 1536px;
+        }
+    }
+}

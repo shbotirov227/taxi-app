@@ -1,0 +1,26 @@
+.HeaderTop {
+    padding: 40px 0;
+    background: linear-gradient(89.83deg, rgba(28, 10, 10, 0.87) 30.47%, #1C0A0A 99.9%), url("../../assets/images/headerBg.png");
+    
+    &-logo {
+        margin-right: 100px;
+    }
+
+    &-tel {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 15px;
+        line-height: 17px;
+        color: #FAED00;
+        margin: 0 15px 0 170px;
+    }
+
+    &-link {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #FFFFFF;
+        margin-right: 30px;
+    }
+}

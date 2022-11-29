@@ -1,0 +1,43 @@
+.Section3 {
+    background-color: #F8F8F8;
+    padding: 70px 0 !important;
+        
+
+    // th {
+    //     border-bottom: 1px solid lightgray;
+    //     border-right: 1px solid lightgray;
+    //     padding: 2px 4px;
+    // }
+
+    // tfoot {
+    //     color: gray;
+    // }
+
+    .MuiTable-root  {
+        max-width: 1110px;
+        width: 100%;
+        position: relative;
+        margin: 0 auto;
+
+        .MuiTableBody-root  {
+            .MuiTableRow-root {
+                padding: 170px !important;
+            } 
+        }
+    }
+
+    tfoot th {
+        font-weight: normal;
+    }
+
+    &-btn {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #272727;
+        background: #FAED00;
+        padding: 15px 100px;
+        margin-top: 50px;
+    }
+}

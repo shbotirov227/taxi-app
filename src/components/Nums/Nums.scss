@@ -1,0 +1,35 @@
+.Nums {
+    // max-width: 200px;
+    &-num {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 17px;
+        color: #373737;
+        background: #FAED00;
+        border-radius: 50%;
+        width: 22px;
+        height: 22px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    &-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 50px;
+        line-height: 48px;
+        color: #272727;
+    }
+
+    &-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #656565;
+    }
+}

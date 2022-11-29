@@ -1,0 +1,71 @@
+.Section2 {
+    height: 100%;
+
+    &-left {
+        position: relative;
+        &::after {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            content: "";
+            top: -90px;
+            right: -160px;
+            background-image: url("../../assets/images/crowd_1.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 1;
+        }
+    }
+    
+    &-right{
+        position: relative;
+        &::before {
+            width: 400px;
+            height: 400px;
+            position: absolute;
+            content: "";
+            top: -90px;
+            right: -40px;
+            background-image: url("../../assets/images/crowd_2.png");
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: contain;
+            background-position: center;
+            z-index: 1;
+        }
+    }
+
+    &-title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 40px;
+        line-height: 38px;
+        color: #272727;
+        margin-bottom: 15px;
+    }
+
+    &-text {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: #656565;
+        margin-bottom: 25px;
+    }
+
+    &-carImgSection {
+        background-image: url("../../assets/images/carBg.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        margin: 0 50px 0 50px;
+        z-index: 5;
+        .carImg {
+            width: 450px;
+            height: 300px;
+        }
+    }
+}

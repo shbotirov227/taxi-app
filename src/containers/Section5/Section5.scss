@@ -1,0 +1,43 @@
+.Section5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 135px 0;
+    background-color: #fff;
+
+    .Section2-title {
+        margin-bottom: 20px;
+    }
+    
+    .Section2-text {
+        text-align: center;
+        max-width: 400px;
+        margin-bottom: 65px;
+    }
+
+    &-form {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        .Section3-btn {
+            margin-top: 0;
+            padding: 15px 80px;
+        }
+    }
+
+    &-input {
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 18px;
+        color: #8E8E8E;
+        padding: 15px 15px 15px 0;
+        border-bottom: 2px solid #D2D2D2;
+        margin-right: 30px;
+        width: 285px;
+        height: 50px;
+        outline: none;
+        background-color: transparent;
+    }
+}
